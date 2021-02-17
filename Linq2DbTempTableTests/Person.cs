@@ -1,8 +1,7 @@
 ﻿namespace Linq2DbTests
 {
-    public class Person
+    public class Person : Entity<int>
     {
-        public int Id { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }
     }
